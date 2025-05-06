@@ -2,77 +2,80 @@ import os
 
 def processar_resposta(resposta, nome):
     if resposta == '1':
-        print(f'{os.linesep}{nome}, na minha visão vale muito a pena, isso porque Python é uma das linguagens que mais cresce no mundo e possui salários mensais que vão desde R$2100,00 a até mais R$10000,00 no Brasil, além de contar com uma média anual de $85.000 dólares nos EUA.{os.linesep}')
+        print(f'\n{nome}, vale muito a pena aprender Python. É uma das linguagens que mais cresce no mundo, com salários de R$2100 até mais de R$10.000 no Brasil, e média de $85.000/ano nos EUA.\n')
     elif resposta == '2':
-        print(f'{os.linesep}{nome}, isso varia muito com o nível de esforço, dedicação e busca diária por vagas de cada indivíduo. Alguns conseguem com menos de 3 meses e outros com mais, tudo depende do quanto você já sabe ou está disposto a correr atrás para aprender.{os.linesep}')
+        print(f'\n{nome}, isso depende do seu esforço. Algumas pessoas conseguem um emprego em 3 meses, outras levam mais tempo. O importante é praticar diariamente.\n')
     elif resposta == '3':
-        print(f'{os.linesep}{nome}, ninguém vai te dizer magicamente que você está bom o suficiente. Quando dominar os fundamentos de Python, comece a aplicar para vagas e criar projetos reais.{os.linesep}')
+        print(f'\n{nome}, você sabe que está pronto quando entende os fundamentos e começa a construir projetos. Não espere estar "perfeito" para começar a aplicar para vagas.\n')
     elif resposta == '4':
-        print(f'{os.linesep}{nome}, você pode estudar por vídeos gratuitos, livros, sites e cursos pagos. Uma boa recomendação é o cursodepython.net.{os.linesep}')
+        print(f'\n{nome}, você pode estudar grátis no YouTube, em livros e sites. Mas se quer algo mais estruturado, com projetos e suporte, recomendo o cursodepython.net.\n')
     elif resposta == '5':
-        print(f'{os.linesep}{nome}, os 5 pilares da programação com Python são: variáveis, estruturas condicionais, laços de repetição, funções e estruturas de dados (listas, dicionários, etc).{os.linesep}')
+        print(f'\n{nome}, os 5 pilares são: variáveis, estruturas de decisão, laços de repetição, funções e manipulação de dados.\n')
     elif resposta == '6':
-        print(f'{os.linesep}{nome}, sim! Python é ótimo para quem está começando, pois possui uma sintaxe simples, legível e é muito versátil.{os.linesep}')
+        print(f'\n{nome}, sim! Python é considerada uma das melhores linguagens para iniciantes por sua simplicidade e legibilidade.\n')
     elif resposta == '7':
-        print(f'{os.linesep}{nome}, você pode usar Python para automação, análise de dados, desenvolvimento web, inteligência artificial, jogos, e muito mais.{os.linesep}')
+        print(f'\n{nome}, com Python você pode fazer automação, análise de dados, inteligência artificial, APIs, jogos, apps e muito mais.\n')
     elif resposta == '8':
-        print(f'{os.linesep}{nome}, sim! Com Python é possível automatizar tarefas como envio de e-mails, organização de arquivos, coleta de dados de sites e muito mais.{os.linesep}')
+        print(f'\n{nome}, sim! Python é excelente para automação de tarefas como organizar arquivos, enviar e-mails, preencher planilhas, entre outros.\n')
     elif resposta == '9':
-        print(f'{os.linesep}{nome}, sim, com Python é possível criar sites usando frameworks como Django e Flask.{os.linesep}')
+        print(f'\n{nome}, sim! Com frameworks como Flask ou Django, é possível criar sites completos com Python.\n')
     elif resposta == '10':
-        print(f'{os.linesep}{nome}, a biblioteca Pandas é muito utilizada para análise de dados em Python, assim como NumPy e Matplotlib.{os.linesep}')
+        print(f'\n{nome}, as principais bibliotecas de dados são: pandas, numpy, matplotlib, seaborn e scikit-learn.\n')
     elif resposta == '11':
-        print(f'{os.linesep}{nome}, para começar com Python, instale o Python do site oficial, use um editor como VS Code e comece com exercícios simples de lógica.{os.linesep}')
+        print(f'\n{nome}, comece pelo básico: variáveis, loops, funções. Use sites como w3schools, Curso em Vídeo ou livros como "Automatize tarefas maçantes com Python".\n')
     elif resposta == '12':
-        print(f'{os.linesep}{nome}, sim, Python é amplamente utilizado em ciência de dados e machine learning com bibliotecas como scikit-learn, TensorFlow e PyTorch.{os.linesep}')
+        print(f'\n{nome}, sim! Python é uma das linguagens mais usadas em ciência de dados, junto com R e SQL.\n')
     elif resposta == '13':
-        print(f'{os.linesep}{nome}, você pode treinar resolvendo exercícios no HackerRank, Codewars, LeetCode ou projetos próprios como bots, sites ou scripts.{os.linesep}')
+        print(f'\n{nome}, treine resolvendo desafios em sites como HackerRank, CodeWars, ou criando pequenos projetos práticos.\n')
     elif resposta == '14':
-        print(f'{os.linesep}{nome}, Python é uma linguagem interpretada e de alto nível, com forte tipagem dinâmica e suporte a múltiplos paradigmas (orientado a objetos, funcional, etc).{os.linesep}')
+        print(f'\n{nome}, Python é simples, multiplataforma, tem vasta comunidade, é versátil e possui milhares de bibliotecas úteis.\n')
     elif resposta == '15':
-        print(f'{os.linesep}{nome}, sim! Python tem suporte a orientação a objetos, permitindo criar classes, herança, encapsulamento, etc.{os.linesep}')
+        print(f'\n{nome}, sim! Python suporta programação orientada a objetos, com classes, herança, encapsulamento e mais.\n')
     elif resposta == '16':
-        print(f'{os.linesep}{nome}, Python possui uma enorme comunidade ativa, com fóruns, tutoriais, repositórios no GitHub e respostas rápidas no Stack Overflow.{os.linesep}')
+        print(f'\n{nome}, a comunidade Python é extremamente ativa, com fóruns, eventos, grupos e muita produção de conteúdo.\n')
     elif resposta == '17':
-        print(f'{os.linesep}{nome}, você pode versionar seus projetos com Git e publicar no GitHub, isso mostra sua evolução e ajuda no portfólio profissional.{os.linesep}')
+        print(f'\n{nome}, monte um portfólio com projetos simples e úteis: automações, API REST, CRUD com Flask, dashboards, etc. Suba no GitHub!\n')
     elif resposta == '18':
-        print(f'{os.linesep}{nome}, sim, Python pode ser usado para desenvolver jogos simples com bibliotecas como Pygame.{os.linesep}')
+        print(f'\n{nome}, sim! Com a biblioteca Pygame, é possível criar jogos 2D com Python.\n')
     elif resposta == '19':
-        print(f'{os.linesep}{nome}, sim, você pode desenvolver APIs com frameworks como Flask e FastAPI.{os.linesep}')
+        print(f'\n{nome}, Python permite criar APIs facilmente com Flask, Django REST Framework, FastAPI e outras bibliotecas.\n')
     elif resposta == '20':
-        print(f'{os.linesep}{nome}, o mercado está muito aquecido para quem trabalha com Python, especialmente em áreas como automação, ciência de dados e web.{os.linesep}')
+        print(f'\n{nome}, o mercado de Python é excelente, especialmente nas áreas de dados, automação, backend e inteligência artificial.\n')
+    elif resposta == '0':
+        print(f'\nAté logo, {nome}! Obrigado por usar o Chatbot Python.\n')
+        exit()
     else:
-        print('Digite um número entre 1 e 20')
+        print('\nDigite apenas um número entre 0 e 20.\n')
 
 def start():
-    print('Olá! Bem-vindo ao chatbot de perguntas e respostas desenvolvido pelo João Vitor Felix')
+    print('Olá! Bem-vindo ao chatbot Python desenvolvido pelo João Vitor Felix\n')
     nome = input('Digite seu nome: ')
     email = input('Digite seu e-mail: ')
     while True:
         resposta = input(
-    f'O que gostaria de saber hoje?{os.linesep}'
-    '[1] - Vale a pena aprender Python?\n'
-    '[2] - Quanto tempo leva para conseguir um emprego com Python?\n'
-    '[3] - Quando vou saber que estou BOM o suficiente para conseguir um emprego?\n'
-    '[4] - Onde me recomenda estudar Python para conseguir um emprego hoje?\n'
-    '[5] - Quais são os 5 pilares da programação com Python?\n'
-    '[6] - Python é uma boa linguagem para iniciantes?\n'
-    '[7] - O que dá pra fazer com Python?\n'
-    '[8] - Dá pra automatizar tarefas com Python?\n'
-    '[9] - Dá pra criar sites com Python?\n'
-    '[10] - Quais bibliotecas usar para análise de dados com Python?\n'
-    '[11] - Como começar a programar em Python?\n'
-    '[12] - Posso usar Python em ciência de dados?\n'
-    '[13] - Como treinar programação com Python?\n'
-    '[14] - Quais são as principais características do Python?\n'
-    '[15] - Python é orientado a objetos?\n'
-    '[16] - A comunidade de Python é ativa?\n'
-    '[17] - Como criar um portfólio com projetos Python?\n'
-    '[18] - Dá pra fazer jogos com Python?\n'
-    '[19] - Python permite criar APIs?\n'
-    '[20] - O mercado de trabalho para Python está bom?\n'
-)
-
+            f'\nO que gostaria de saber hoje?\n'
+            '[1] - Vale a pena aprender Python?\n'
+            '[2] - Quanto tempo leva para conseguir um emprego com Python?\n'
+            '[3] - Quando vou saber que estou BOM o suficiente para conseguir um emprego?\n'
+            '[4] - Onde me recomenda estudar Python para conseguir um emprego hoje?\n'
+            '[5] - Quais são os 5 pilares da programação com Python?\n'
+            '[6] - Python é uma boa linguagem para iniciantes?\n'
+            '[7] - O que dá pra fazer com Python?\n'
+            '[8] - Dá pra automatizar tarefas com Python?\n'
+            '[9] - Dá pra criar sites com Python?\n'
+            '[10] - Quais bibliotecas usar para análise de dados com Python?\n'
+            '[11] - Como começar a programar em Python?\n'
+            '[12] - Posso usar Python em ciência de dados?\n'
+            '[13] - Como treinar programação com Python?\n'
+            '[14] - Quais são as principais características do Python?\n'
+            '[15] - Python é orientado a objetos?\n'
+            '[16] - A comunidade de Python é ativa?\n'
+            '[17] - Como criar um portfólio com projetos Python?\n'
+            '[18] - Dá pra fazer jogos com Python?\n'
+            '[19] - Python permite criar APIs?\n'
+            '[20] - O mercado de trabalho para Python está bom?\n'
+            '[0] - Sair\n'
+        )
         processar_resposta(resposta, nome)
 
 if __name__ == '__main__':
